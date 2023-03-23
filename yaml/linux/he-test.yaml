@@ -56,6 +56,10 @@ post:
 #  - name: Surefire-Report
 #    path:
 #     - target/surefire-reports/**
+sourcePayload:
+      platform: git
+      link: https://github.com/AryanL1998/junit-selenium-test.git
+      ref: master
 
 testDiscovery:
   type: raw

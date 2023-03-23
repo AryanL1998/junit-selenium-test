@@ -1,6 +1,11 @@
-version: "3"
+version: "2"
 
 services:
-  myapp:
-    image: python:3.9-alpine
-    command: ["python", "-c", "print('Hello, Docker Compose!')"]
+
+  docker-in-docker:
+    image: docker:dind
+    privileged: true
+    expose:
+      - 2375
+      - 2376
+    command: docker images -a
