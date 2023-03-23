@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: hyperexecute.SelPlayGroundTest1
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.996 s <<< FAILURE! - in hyperexecute.SelPlayGroundTest1
+hyperexecute.SelPlayGroundTest1.test_SelPlayground(String, String, String, String, String)[1]  Time elapsed: 0.854 s  <<< ERROR!
+java.lang.NullPointerException
+	at hyperexecute.SelPlayGroundTest1.test_SelPlayground(SelPlayGroundTest1.java:97)
+
+hyperexecute.SelPlayGroundTest1.test_SelPlayground(String, String, String, String, String)[2]  Time elapsed: 0.854 s  <<< ERROR!
+java.lang.NullPointerException
+	at hyperexecute.SelPlayGroundTest1.test_SelPlayground(SelPlayGroundTest1.java:97)
+

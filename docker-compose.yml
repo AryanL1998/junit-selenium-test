@@ -1,0 +1,6 @@
+version: "3"
+
+services:
+  myapp:
+    image: python:3.9-alpine
+    command: ["python", "-c", "print('Hello, Docker Compose!')"]
